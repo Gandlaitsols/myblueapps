@@ -18,3 +18,5 @@ pipeline {
             steps {
                 sh 'mvn clean install -f pom.xml'
             }
+	}
+    }
